@@ -3,7 +3,8 @@
 
 int main(){
     double x;
-    printf("This program calculates several functions for a given value, pleas enter a real number:  ");
+    printf("*** HW1 ***\n");
+    printf("This program calculates several functions for a given value,\npleas enter a real number:  ");
     scanf("%lf" , &x);
     double fx1 = add(Exponent((int)x), sub(Power(x, 3), 2));
     double fx2 = add(mul(x, 3),mul(Power(x, 2),2 ) );
@@ -16,6 +17,8 @@ int main(){
     else{
         printf("this function divided by 0! \n");
                 }
+    
+   
    
     return 0;
 }
